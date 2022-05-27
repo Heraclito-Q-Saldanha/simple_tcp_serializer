@@ -2,6 +2,7 @@
 name = "network_serializer"
 version = "0.1.0"
 edition = "2021"
+license = "Unlicense/MIT"
 
 [dependencies]
 serde = {version = "1.0.137", features = ["derive"]}
