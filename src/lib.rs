@@ -1,5 +1,5 @@
 mod error;
-use error::NetworkPeerError;
+pub use error::NetworkPeerError;
 
 use std::{
 	io::prelude::*,
