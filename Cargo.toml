@@ -1,5 +1,5 @@
 [package]
-name = "network_serializer"
+name = "simple_tcp_serializer"
 version = "0.1.0"
 edition = "2021"
 license = "Unlicense/MIT"
