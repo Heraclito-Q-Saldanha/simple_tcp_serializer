@@ -1,9 +1,9 @@
 [package]
-name = "simple_tcp_serializer"
+name = "simple-tcp-serializer"
 version = "0.1.0"
 edition = "2021"
 license = "Unlicense/MIT"
 
 [dependencies]
-serde = {version = "1.0.137", features = ["derive"]}
+serde = {version = "1.0.144", features = ["derive"]}
 bincode = "1.3.3"

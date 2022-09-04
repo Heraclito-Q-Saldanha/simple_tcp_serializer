@@ -1,4 +1,10 @@
-use std::{io::{self, ErrorKind} ,fmt};
+use std::{
+	fmt,
+	io::{
+		self,
+		ErrorKind
+	}
+};
 
 #[derive(Debug, Clone)]
 pub enum NetworkPeerError{

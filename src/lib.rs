@@ -3,7 +3,7 @@ pub use error::NetworkPeerError;
 
 use std::{
 	io::prelude::*,
-	net,
+	net
 };
 
 pub struct NetworkPeer{
