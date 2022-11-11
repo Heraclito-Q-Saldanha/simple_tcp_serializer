@@ -1,8 +1,12 @@
 [package]
-name = "simple-tcp-serializer"
+name = "simple_tcp_serializer"
 version = "0.1.0"
 edition = "2021"
-license = "Unlicense/MIT"
+license = "Unlicense OR MIT"
+authors = ["Heráclito <heraclitoqsaldanha@gmail.com>"]
+description = "simple library for serializing and deserializing tcp packages in rust"
+repository = "https://github.com/Heraclito-Q-Saldanha/simple_tcp_serializer"
+keywords = ["network", "serializer"]
 
 [dependencies]
 serde = {version = "1.0.144", features = ["derive"]}
